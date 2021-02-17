@@ -17,8 +17,8 @@
 <body>
     <!-- header mobil -->
     <nav id="header" class="navbar navbar-expand-lg navbar-light" >
-        <div class="container-fluid">
-          <a class="navbar-brand pt-4 ps-2" href="#">
+        <div class="container-fluid d-md-flex align-items-md-end">
+          <a class="navbar-brand d-flex align-item-end" href="#">
               <img src="https://www.flaticon.es/premium-icon/icons/svg/2474/2474307.svg" alt="">
           </a>
           <div class="d-md-none">
@@ -45,24 +45,27 @@
                   </ul>
               </div>
           </div>
-
-          <p class="mr-auto d-flex justify-content-end">The best cakes in town <br> 
-            delivered to your door
-            </p>
+          <div class="row me-md-5">
+              <div class="col-8 offset-4 text-end col-md offset-md-0  ">
+                <p class="">The best cakes in town
+                    delivered to your door
+                  </p>
+              </div>
+          </div>
         </div>
     </nav>
     <!-- header mobil end-->
 
     <!-- header desktop-->
-    <header id="header-2" class="container pt-4 pb-4">
-        <nav class="navbar navbar-expand-lg navbar-light d-none d-lg-block">
+    <header id="header-2" class="container-fluid pt-4 pb-5 me-md-3">
+        <nav class="navbar navbar-expand-sm navbar-light d-none d-lg-block">
             <div class="container-fluid">
-                <div class="navbar-nav ms-auto ">
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link" href="#">Pricing</a>
+                <div class="navbar-nav ms-auto text-uppercase ">
+                  <a class="nav-link" href="#">home</a>
+                  <a class="nav-link" href="#">cakes</a>
+                  <a class="nav-link" href="#">orderin</a>
+                  <a class="nav-link" href="#">lessons</a>
+                  <a class="nav-link" href="#">about</a>
                 </div>
               </div>
             </div>
@@ -72,22 +75,21 @@
     
     
     <!-- main -->
-    <div id="main" class=" container d-md-flex flex-row-reverse ">
-        <div class="card-body text-md-end">
-            <h5 class="card-title">Welcome</h5>
+    <div id="main" class=" container-fluid d-md-flex flex-row-reverse mb-3 me-md-3">
+        <div class="card-body text-start text-md-end">
+            <h2 class="card-title">Welcome</h2>
             <p class="card-text mb-4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
             </p>
             </div>
-            <div class="container d-flex justify-content-center me-5 ">
+            <div class="container d-flex justify-content-center me-md-5 ">
                 <img src="https://www.flaticon.com/svg/vstatic/svg/174/174394.svg?token=exp=1613367680~hmac=7c0b0eb9ef59f655ab213ff552fb441c" class="card-img-bottom" alt="cup cakes">
             </div>
         </div>
     </div>
-    
     <!-- main end -->
 
     <!-- section -->
-    <section class="container">
+    <section id="section" class="container-fluid mb-5 mt-5  me-md-3">
         <div class="row">
             <div class="col-6 col-md d-flex justify-content-center">
                 <img src="https://www.flaticon.com/premium-icon/icons/svg/3174/3174621.svg" alt="">
@@ -103,11 +105,27 @@
             </div>
         </div>
     </section>
-
-
     <!-- section end -->
 
     <!-- footer-->
+    <footer id="footer" class="container-fluid">
+        <div class="row text-md-center pt-4">
+            <div class="col-12 col-md text-md-end pb-3">
+                <a href="">Contáctanos.</a>
+            </div>
+            <div class="col-12 col-md pb-3">
+                <a href="">Privacidad.   </a>
+            </div>
+            <div class="col-12 col-md text-md-start pb-3">
+                <a href="">Acerca De.   </a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <a href="">Copyright.</a>
+            </div>
+        </div>
+    </footer>
     <!-- footer end-->
 
 
